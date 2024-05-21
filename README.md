@@ -27,6 +27,7 @@ Here I have created another Pod with centos image and tried to ping nginx pod IP
 <br><br/>
 #### Pod to Service Communication
 ![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/ac52b4d4-8fc6-4a0e-a65f-509c04bf17ba)
+<br><br/>
 Kubernetes Service serves as loadbalancer and routes the traffic to the Pod in **round robin algorithm**.
 <br><br/>
 I have created three pods and a service which routes the traffic to the pods in round robin algorithm. 
