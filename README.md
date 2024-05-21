@@ -24,3 +24,6 @@ Here I have created another Pod with centos image and tried to ping nginx pod IP
 ![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/9b62b20d-aba8-4344-ad00-3a0edd39efc6)
 ![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/53a15f27-f82b-4fda-8209-ff4b79c63479)
 **Pod to Pod communication happens over the IP address assigned to the pod.**
+<br<br/>
+#### Pod to Service Communication
+![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/ac52b4d4-8fc6-4a0e-a65f-509c04bf17ba)
