@@ -15,3 +15,6 @@ Now check the IP address assigned to Pod and each of the containers(main contain
 ![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/50755497-8e23-4df7-86bf-8cd5b851c05f)
 From the alpine container we did curl to the localhost and we saw the home page for nginx.
 ![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/9e443465-f865-4ca5-acd8-998af6a90dba)
+<br><br/>
+#### Pod to Pod Communication
+**In kubernetes each pod has a unique IP address. When communication happens between the pods then it will happen over the IP address assign to the pod. The traffic flows from eth0 of Pod1 to eth0 of Pod2 through the virtual bridge network.**
