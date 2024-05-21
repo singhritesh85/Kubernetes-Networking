@@ -18,3 +18,8 @@ From the alpine container we did curl to the localhost and we saw the home page 
 <br><br/>
 #### Pod to Pod Communication
 **In kubernetes each pod has a unique IP address. When communication happens between the pods then it will happen over the IP address assign to the pod. The traffic flows from eth0 of Pod1 to eth0 of Pod2 through the virtual bridge network.**
+<br><br/>
+Here I have created another Pod with centos image and tried to ping nginx pod IP from here and centos pod IP from nginx pod and see the response.
+![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/3524aee9-25b3-40ed-a8a9-98292fa7ea1e)
+![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/9b62b20d-aba8-4344-ad00-3a0edd39efc6)
+![image](https://github.com/singhritesh85/Kubernetes-Networking/assets/56765895/53a15f27-f82b-4fda-8209-ff4b79c63479)
